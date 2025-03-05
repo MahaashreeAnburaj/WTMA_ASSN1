@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahaashree Anburaj | Web Developer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+  <meta name="description" content="Mahaashree Anburaj - Front-end Web Developer specializing in creating beautiful, responsive websites">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <h1>Mahaashree Anburaj</h1>
+      <p class="tagline">Front-end Developer & UI Designer</p>
+    </div>
+    <nav>
+      <a href="#about"><i class="fas fa-user"></i> About</a>
+      <a href="#projects"><i class="fas fa-code"></i> Projects</a>
+      <a href="#blog"><i class="fas fa-feather-alt"></i> Blog</a>
+      <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="section-heading">
+      <h2>About Me</h2>
+    </div>
+    <div class="about-content">
+      <div class="profile-container">
+        <img src="6515859.webp" alt="Mahaashree Anburaj" class="profile-image">
+        <div class="social-links">
+          <a href="https://github.com/yourusername" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/yourusername" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://twitter.com/yourusername" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="intro">Hello! I'm a passionate front-end developer based in Chennai, India.</p>
+        <p>I specialize in creating responsive, user-friendly websites with clean code and creative designs. With 3+ years of experience in web development, I enjoy turning complex problems into simple, beautiful solutions.</p>
+        <div class="skills-container">
+          <h3>Technical Skills</h3>
+          <div class="skills-grid">
+            <div class="skill-pill"><i class="fab fa-html5"></i> HTML5</div>
+            <div class="skill-pill"><i class="fab fa-css3-alt"></i> CSS3</div>
+            <div class="skill-pill"><i class="fab fa-js"></i> JavaScript</div>
+            <div class="skill-pill"><i class="fab fa-react"></i> React</div>
+            <div class="skill-pill"><i class="fab fa-node-js"></i> Node.js</div>
+            <div class="skill-pill"><i class="fas fa-database"></i> MongoDB</div>
+          </div>
+        </div>
+        <a href="resume.pdf" class="download-btn" download><i class="fas fa-download"></i> Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="section-heading">
+      <h2>Featured Projects</h2>
+      <p>A selection of my recent work</p>
+    </div>
+    <div class="project-list">
+      <div class="project-item" id="project-1">
+        <div class="project-image">
+          <img src="Ecommerce-KPI-dashboard.png" alt="Project One Screenshot">
+        </div>
+        <div class="project-details">
+          <h3>E-Commerce Dashboard</h3>
+          <div class="project-tags">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+          </div>
+          <p>A responsive dashboard for online retailers with real-time analytics, inventory management, and order tracking features.</p>
+          <div class="project-links">
+            <a href="#" class="view-project-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="#" class="github-link"><i class="fab fa-github"></i> View Code</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-item" id="project-2">
+        <div class="project-image">
+          <img src="tracking-physical.png" alt="Project Two Screenshot">
+        </div>
+        <div class="project-details">
+          <h3>Health & Fitness Tracker</h3>
+          <div class="project-tags">
+            <span>JavaScript</span>
+            <span>Chart.js</span>
+            <span>Firebase</span>
+          </div>
+          <p>A mobile-responsive fitness application that helps users track workouts, nutritional intake, and progress visualization.</p>
+          <div class="project-links">
+            <a href="#" class="view-project-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="#" class="github-link"><i class="fab fa-github"></i> View Code</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-item" id="project-3">
+        <div class="project-image">
+          <img src="images.jpeg" alt="Project Three Screenshot">
+        </div>
+        <div class="project-details">
+          <h3>Creative Agency Website</h3>
+          <div class="project-tags">
+            <span>HTML/CSS</span>
+            <span>JavaScript</span>
+            <span>GSAP</span>
+          </div>
+          <p>A modern, animated website for a creative agency featuring interactive elements, portfolio showcases, and contact forms.</p>
+          <div class="project-links">
+            <a href="#" class="view-project-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="#" class="github-link"><i class="fab fa-github"></i> View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="view-all-container">
+      <a href="projects.html" class="view-all-btn">View All Projects <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog">
+    <div class="section-heading">
+      <h2>My Blog</h2>
+      <p>Thoughts, tutorials, and insights about web development</p>
+    </div>
+    
+    <div class="blog-categories">
+      <button class="blog-category active" data-category="all">All</button>
+      <button class="blog-category" data-category="tutorials">Tutorials</button>
+      <button class="blog-category" data-category="tech">Tech Trends</button>
+      <button class="blog-category" data-category="projects">Project Insights</button>
+    </div>
+    
+    <div class="blog-articles">
+      <article class="blog-post" data-category="tutorials">
+        <div class="blog-image">
+          <img src="images.png" alt="Blog post on CSS Grid">
+          <div class="blog-date">
+            <span class="day">14</span>
+            <span class="month">Feb</span>
+          </div>
+        </div>
+        <div class="blog-content">
+          <div class="blog-tags">
+            <span>Tutorial</span>
+            <span>CSS</span>
+          </div>
+          <h3>Mastering CSS Grid: A Complete Guide</h3>
+          <p>Learn how to create complex layouts easily with CSS Grid. This comprehensive guide covers everything from basic concepts to advanced techniques.</p>
+          <div class="blog-meta">
+            <span><i class="far fa-clock"></i> 8 min read</span>
+            <span><i class="far fa-comment"></i> 12 comments</span>
+          </div>
+          <a href="blog/mastering-css-grid.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+      
+      <article class="blog-post" data-category="tech">
+        <div class="blog-image">
+          <img src="How-to-Use-AI-in-Web-Development.webp" alt="AI in Web Development">
+          <div class="blog-date">
+            <span class="day">28</span>
+            <span class="month">Jan</span>
+          </div>
+        </div>
+        <div class="blog-content">
+          <div class="blog-tags">
+            <span>Tech Trends</span>
+            <span>AI</span>
+          </div>
+          <h3>How AI is Transforming Front-End Development</h3>
+          <p>Explore how artificial intelligence tools are changing the landscape of front-end development, from code generation to design assistance.</p>
+          <div class="blog-meta">
+            <span><i class="far fa-clock"></i> 12 min read</span>
+            <span><i class="far fa-comment"></i> 24 comments</span>
+          </div>
+          <a href="blog/ai-frontend-development.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+      
+      <article class="blog-post" data-category="projects">
+        <div class="blog-image">
+          <img src="Ecommerce-KPI-dashboard.png" alt="E-commerce project development">
+          <div class="blog-date">
+            <span class="day">05</span>
+            <span class="month">Jan</span>
+          </div>
+        </div>
+        <div class="blog-content">
+          <div class="blog-tags">
+            <span>Project Insights</span>
+            <span>Case Study</span>
+          </div>
+          <h3>Building an E-Commerce Dashboard: Behind the Scenes</h3>
+          <p>A detailed case study of my e-commerce dashboard project. Learn about the challenges, solutions, and lessons learned throughout the development process.</p>
+          <div class="blog-meta">
+            <span><i class="far fa-clock"></i> 15 min read</span>
+            <span><i class="far fa-comment"></i> 8 comments</span>
+          </div>
+          <a href="blog/ecommerce-dashboard-case-study.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+    </div>
+    
+    <div class="view-all-container">
+      <a href="blog.html" class="view-all-btn">View All Articles <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section id="newsletter">
+    <div class="newsletter-container">
+      <div class="newsletter-content">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to my newsletter for the latest articles, tutorials, and project updates.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email address" required>
+          <button type="submit">Subscribe <i class="fas fa-paper-plane"></i></button>
+        </form>
+        <p class="newsletter-privacy">I respect your privacy. Unsubscribe at any time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact">
+    <div class="section-heading">
+      <h2>Get in Touch</h2>
+      <p>Have a project in mind? Let's work together!</p>
+    </div>
+    
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="contact-details">
+            <h3>Location</h3>
+            <p>Chennai, Tamil Nadu, India</p>
+          </div>
+        </div>
+        
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-details">
+            <h3>Email</h3>
+            <p>hello@mahaashree.com</p>
+          </div>
+        </div>
+        
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <div class="contact-details">
+            <h3>Phone</h3>
+            <p>+91 98765 43210</p>
+          </div>
+        </div>
+        
+        <div class="availability">
+          <h3>Current Availability</h3>
+          <div class="availability-status available">
+            <span class="status-dot"></span>
+            <p>Available for Freelance Projects</p>
+          </div>
+        </div>
+      </div>
+      
+      <form id="contact-form" class="contact-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="What is this regarding?">
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Tell me about your project" required></textarea>
+        </div>
+        
+        <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h3>Mahaashree Anburaj</h3>
+        <p>Front-end Developer & UI Designer</p>
+      </div>
+      
+      <div class="footer-links">
+        <div class="footer-section">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="resume.pdf">Resume</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-social">
+        <h4>Connect With Me</h4>
+        <div class="social-icons">
+          <a href="https://github.com/yourusername" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/yourusername" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://twitter.com/yourusername" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://instagram.com/yourusername" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 Mahaashree Anburaj | All Rights Reserved</p>
+      <p class="footer-credits">Designed & Developed with <i class="fas fa-heart"></i></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
